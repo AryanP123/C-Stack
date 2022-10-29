@@ -1,18 +1,7 @@
-/**********************************************************************
-Program: Daily 7 Parenthesis
-Author: Aryan Puttur
-Date: 2/28/22
-Time spent: 3 hours
-Purpose: The purpose of this program is to take an input from keyboard as a series of string consisting of parenthesis style characters and
-returns if the string is valid or not depending on if it is an empty string, ff string A is correct and string B is correct then string AB is
-correct, If A is correct then (A), [A] and {A} are all correct.
-***********************************************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
 #include "stack.h"
-
-
 
 int checkforsimilar(char first, char second);
 void answer(void);
